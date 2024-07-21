@@ -113,6 +113,34 @@
   box-sizing: border-box;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  /* Optional: to remove the underline from the link */
+}
+
+.logo img {
+  margin-right: 10px;
+  /* Adjust spacing between the image and text as needed */
+}
+
+.logo-text {
+  font-size: 20px;
+  /* Adjust font size as needed */
+  font-weight: bold;
+  /* Make the text bold */
+  color: #3c3c3c;
+  /* Adjust text color for better readability */
+  font-family: 'Arial', sans-serif;
+  /* Choose a suitable font family */
+}
+
+.logo:hover .logo-text {
+  color: #1AB79D;
+  /* Change text color on hover */
+}
+
 li {
   list-style: none;
 }
