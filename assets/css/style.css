@@ -114,30 +114,30 @@
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
+  display: flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
   /* Optional: to remove the underline from the link */
 }
 
 .logo img {
-  margin-right: 10px;
+  margin-right: 10px !important;
   /* Adjust spacing between the image and text as needed */
 }
 
 .logo-text {
-  font-size: 20px;
+  font-size: 20px !important;
   /* Adjust font size as needed */
-  font-weight: bold;
+  font-weight: bold !important;
   /* Make the text bold */
-  color: #3c3c3c;
+  color: #3c3c3c !important;
   /* Adjust text color for better readability */
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif !important;
   /* Choose a suitable font family */
 }
 
 .logo:hover .logo-text {
-  color: #1AB79D;
+  color: #1AB79D !important;
   /* Change text color on hover */
 }
 
