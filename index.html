@@ -156,7 +156,7 @@
         </nav>
 
         <div class="header-actions">
-          <button
+          <!-- <button
             class="header-action-btn"
             aria-label="toggle search"
             title="Search"
@@ -168,10 +168,10 @@
             <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
 
             <span class="btn-badge">0</span>
-          </button>
+          </button> -->
 
-          <a href="#" class="btn has-before">
-            <span class="span">Try for free</span>
+          <a href="#enroll" class="btn has-before">
+            <span class="span">Enroll for free</span>
 
             <ion-icon
               name="arrow-forward-outline"
@@ -225,7 +225,7 @@
                 tech.
               </p>
 
-              <a href="#" class="btn has-before">
+              <a href="#courses" class="btn has-before">
                 <span class="span">Find courses</span>
 
                 <ion-icon
@@ -420,7 +420,7 @@
               </div>
 
               <img
-                src="./assets/images/about-shape-1.svg"
+                src="./assets/images/about-shape-1.png"
                 width="360"
                 height="420"
                 loading="lazy"
@@ -835,7 +835,7 @@
           <div class="container">
             <p class="section-subtitle">Latest Articles</p>
 
-            <h2 class="h2 section-title">Get News With Eduweb</h2>
+            <h2 class="h2 section-title">Get News With Learn Sky</h2>
 
             <ul class="grid-list">
               <li>
@@ -1024,6 +1024,88 @@
               alt=""
               class="shape blog-shape"
             />
+          </div>
+        </section>
+
+        <section
+          class="section category"
+          id="enroll"
+          aria-label="enroll"
+          style="
+            background-image: url('./assets/images/formsecbg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+            padding: 50px 20px;
+          "
+        >
+          <div class="container">
+            <p class="section-subtitle" style="color: darkgreen">
+              Join us today and take the first step towards achieving your
+              goals!
+            </p>
+            <h2 class="h2 section-title">Enroll Now</h2>
+            <div class="formcontainer">
+              <form id="inquiry-form">
+                <div style="margin-top: 10px">
+                  <label for="name" class="formlabel">Full Name:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="formfields"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email" class="formlabel">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="formfields"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="phone" class="formlabel">Phone Number:</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="formfields"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="course" class="formlabel"
+                    >Course of Interest:</label
+                  >
+                  <select id="course" name="course" class="formfields" required>
+                    <option value="software-development">
+                      Software Development
+                    </option>
+                    <option value="software-testing">Software Testing</option>
+                    <option value="data-analyst">Data Analyst</option>
+                    <option value="artificial-inteligence">
+                      Artificial Intelligence
+                    </option>
+                  </select>
+                </div>
+                <div>
+                  <label for="message" class="formlabel">Message:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Any specific queries or requirements?"
+                    class="formfields"
+                  ></textarea>
+                </div>
+                <button type="submit" class="formfields formBtn">Submit</button>
+              </form>
+            </div>
           </div>
         </section>
       </article>
@@ -1239,6 +1321,10 @@
       data-back-top-btn
     >
       <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <a href="https://wa.me/9363229539" target="_blank" class="whatsapp-icon">
+      <img src="./assets/images/watsapp1.png" alt="WhatsApp" />
     </a>
 
     <!-- 
