@@ -127,24 +127,20 @@
 
 .logo-text {
   font-size: 20px !important;
-  /* Adjust font size as needed */
   font-weight: bold !important;
-  /* Make the text bold */
   color: #3c3c3c !important;
-  /* Adjust text color for better readability */
   font-family: 'Arial', sans-serif !important;
-  /* Choose a suitable font family */
 }
 
 .logo:hover .logo-text {
   color: #1AB79D !important;
-  /* Change text color on hover */
 }
 
 li {
   list-style: none;
 }
 
+a,
 img,
 span,
 data,
