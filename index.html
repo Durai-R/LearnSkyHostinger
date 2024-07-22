@@ -1426,8 +1426,25 @@
       <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
     </a>
 
-    <a href="https://wa.me/9363229539" target="_blank" class="whatsapp-icon">
-      <img src="./assets/images/watsapp1.png" alt="WhatsApp" />
+    <a
+      href="https://wa.me/9363229539"
+      target="_blank"
+      class="whatsapp-icon"
+      style="
+        position: fixed;
+        bottom: 40px;
+        left: 40px;
+        z-index: 1000;
+        animation: bounce 2.5s infinite;
+      "
+    >
+      <img
+        src="./assets/images/watsapp1.png"
+        alt="WhatsApp"
+        style="width: 75px; height: 75px"
+        onmouseover="this.style.opacity='0.8';"
+        onmouseout="this.style.opacity='1';"
+      />
     </a>
 
     <!-- 

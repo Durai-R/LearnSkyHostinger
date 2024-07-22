@@ -1648,20 +1648,3 @@ body {
 .logo:hover .logo-text {
   color: #1AB79D;
 }
-
-.whatsapp-icon {
-  position: fixed;
-  bottom: 40px;
-  left: 40px;
-  z-index: 1000;
-  animation: bounce 2.5s infinite;
-}
-
-.whatsapp-icon img {
-  width: 75px;
-  height: 75px;
-}
-
-.whatsapp-icon img:hover {
-  opacity: 0.8;
-}
