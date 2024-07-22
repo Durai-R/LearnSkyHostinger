@@ -643,15 +643,15 @@ body {
 }
 
 .about-item {
-  margin-block: 15px;
+  margin-block: 10px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .about-item ion-icon {
   color: var(--selective-yellow);
-  font-size: 20px;
+  font-size: 15px;
   --ionicon-stroke-width: 50px;
 }
 
